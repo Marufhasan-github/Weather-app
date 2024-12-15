@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="icon" href="/images/4102326_cloud_sun_sunny_weather_icon.ico" />
+    <title>weather App</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="main-card">
+        <div class="card-content">
+          <div class="search">
+            <input
+              type="text"
+              name="search"
+              id="search-box"
+              placeholder="Search"
+            />
+            <button id="search-button" type="submit">
+              <img src="/images/search.png" alt="" />
+            </button>
+          </div>
+          <div class="weather">
+            <img id="weather-img" src="/images/Clear-Day.png" alt="" />
+          </div>
+          <div class="temperature">
+            <p class="temp js-temperature">--</p>
+            <p class="city js-city-name">--</p>
+          </div>
+          <div class="other-info">
+            <div class="humidity common">
+              <div class="icon">
+                <img src="/images/humidity.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="info js-humidity">--</p>
+                <p class="label">Humidity</p>
+              </div>
+            </div>
+            <div class="wind-speed common">
+              <div class="icon">
+                <img src="/images/wind.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="info js-wind-speed">--</p>
+                <p class="label">Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>

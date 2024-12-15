@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.bg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(60, 60, 187);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 60, 187, 1) 0%,
+    rgba(76, 140, 243, 1) 40%,
+    rgba(76, 140, 243, 1) 60%,
+    rgba(60, 60, 187, 1) 100%
+  );
+}
+
+.main-card {
+  height: 600px;
+  width: 440px;
+  background-color: rgba(174, 205, 255, 0.707);
+  backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#search-box {
+  font-size: 20px;
+  width: 75%;
+  background-color: #fff;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  outline: none;
+}
+
+#search-button {
+  width: 20%;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+#search-button img {
+  width: 20px;
+}
+
+.weather {
+  width: 100%;
+}
+
+.weather img {
+  margin-top: 20px;
+  width: 160px;
+}
+
+.temperature .temp {
+  font-size: 70px;
+  font-weight: 500;
+}
+.temperature .city {
+  font-size: 40px;
+  margin: 15px 0 35px;
+}
+
+.other-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.other-info .common {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon img {
+  width: 40px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+.text .info {
+  font-size: 28px;
+}
